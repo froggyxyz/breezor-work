@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&family=Roboto:wght@400;500&display=swap');
+.main {
+  display: grid;
+  align-items: center;
+  height: 100vh;
+  background: top left/cover no-repeat;
+  background-image: url(./main-bg.jpg);
+  background-color: rgba(31, 31, 31, 0.6);
+  background-blend-mode: multiply;
+  z-index: -2;
+  &__btns {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 740px;
+  margin: 0 auto;
+}

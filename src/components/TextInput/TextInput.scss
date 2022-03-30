@@ -1,0 +1,27 @@
+.textInput {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 99fr 1fr;
+  align-items: center;
+  background-color: #fff;
+  input {
+    border: none;
+    outline: none;
+    &::placeholder {
+      color: #7d7d7d;
+    }
+  }
+  img {
+  }
+}
