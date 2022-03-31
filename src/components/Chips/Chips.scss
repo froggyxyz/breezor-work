@@ -43,3 +43,14 @@
     }
   }
 }
+
+@media (max-width: 625px) {
+  .chips {
+    margin-bottom: 0;
+    &__btn {
+      font-size: 11px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}

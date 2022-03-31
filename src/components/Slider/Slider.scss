@@ -18,7 +18,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 900;
-    font-size: 2.75rem;
+    font-size: 44px;
     line-height: 51px;
     text-align: center;
     letter-spacing: 0.5px;
@@ -30,7 +30,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.3125rem;
+    font-size: 21px;
     line-height: 36px;
     text-align: center;
     letter-spacing: 0.5px;
@@ -74,5 +74,38 @@
   }
   &__right {
     right: -60px;
+  }
+}
+
+@media (max-width: 625px) {
+  .slider {
+    h2 {
+      font-size: 22px;
+      line-height: 26px;
+      white-space: nowrap;
+    }
+    h3 {
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+}
+
+@media (min-width: 626px) and (max-width: 740px) {
+  .slider {
+    h2 {
+      font-size: 35px;
+      line-height: 43px;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .slider {
+    &__left,
+    &__right {
+      display: none;
+    }
   }
 }

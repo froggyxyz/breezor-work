@@ -46,3 +46,12 @@
     }
   }
 }
+
+@media (max-width: 625px) {
+  .btn {
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 10px;
+  }
+}

@@ -13,6 +13,7 @@
   border-radius: 4px;
   display: grid;
   grid-template-columns: 99fr 1fr;
+  grid-column-gap: 10px;
   align-items: center;
   background-color: #fff;
   input {
@@ -22,6 +23,12 @@
       color: #7d7d7d;
     }
   }
-  img {
+}
+
+@media (max-width: 625px) {
+  .textInput {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
   }
 }
