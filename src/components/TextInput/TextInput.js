@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from './img/icon.svg';
+import { textInputIcon } from '../icons/icons';
 import './TextInput.scss';
 
 const TextInput = () => {
@@ -9,7 +9,7 @@ const TextInput = () => {
         autoFocus
         placeholder="Поиск по стране, региону, городу, название пляжа"
       />
-      <img src={icon} alt="icon" />
+      <img src={textInputIcon} alt="icon" />
     </div>
   );
 };

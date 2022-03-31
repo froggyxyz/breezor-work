@@ -1,8 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import left from './img/left.svg';
-import right from './img/right.svg';
+import { sliderLeft, sliderRight } from '../icons/icons';
 import './Slider.scss';
 import { Navigation } from 'swiper';
 
@@ -28,7 +27,7 @@ const Slider = () => {
         className={heading === 0 ? 'slider__left-invisible' : 'slider__left'}
         ref={navigationPrevRef}
       >
-        <img src={left} alt="left-btn" />
+        <img src={sliderLeft} alt="left-btn" />
       </button>
       <button
         className={
@@ -38,7 +37,7 @@ const Slider = () => {
         }
         ref={navigationNextRef}
       >
-        <img src={right} alt="right-btn" />
+        <img src={sliderRight} alt="right-btn" />
       </button>
       <Swiper
         className="slider__container"
